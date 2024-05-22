@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Home Task</title>
+  <link rel="stylesheet" href="add-task.css">
+</head>
+<body>
+  <h1>Add Home Task</h1>
+  <form id="add-home-task-form">
+    <label for="home-task">Task:</label>
+    <input type="text" id="home-task" name="home-task" required>
+    <label for="home-task-time">Set Reminder Time:</label>
+    <input type="time" id="home-task-time" name="home-task-time">
+    <label for="home-completion-date">Set Completion Date:</label>
+    <input type="date" id="home-completion-date" name="home-completion-date">
+    <button type="submit">Add Task</button>
+  </form>
+  <ul id="home-tasks"></ul>
+  <script src="add-home-task.js"></script>
+</body>
+</html>
